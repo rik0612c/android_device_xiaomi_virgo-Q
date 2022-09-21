@@ -99,6 +99,6 @@ void init_alarm_boot_properties()
 
 void vendor_load_properties()
 {
-    property_override("rild.libargs", "-d /dev/smd0");
+    property_override("vendor.rild.libargs", "-d /dev/smd0");
     init_alarm_boot_properties();
 }
