@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/xiaomi/virgo
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := virgo,cancro
+
 # Dual sim solution in virgo
 CONFIG_EAP_PROXY_DUAL_SIM := true
 
