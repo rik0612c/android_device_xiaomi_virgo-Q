@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/xiaomi/virgo
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := virgo,cancro
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
