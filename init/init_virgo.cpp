@@ -99,11 +99,6 @@ void init_alarm_boot_properties()
 
 void vendor_load_properties()
 {
-    property_override_dual("ro.product.device", "ro.vendor.product.device", "virgo");
-    property_override_dual("ro.product.name", "ro.vendor.product.name", "virgo");
-    property_override("ro.build.fingerprint", "Xiaomi/virgo/virgo:6.0.1/MMB29M/V8.1.6.0.MXDMIDI:user/release-keys");
-    property_override("ro.build.description", "virgo-user 6.0.1 MMB29M V8.1.6.0.MXDMIDI release-keys");
-
     property_override("rild.libargs", "-d /dev/smd0");
     init_alarm_boot_properties();
 }
